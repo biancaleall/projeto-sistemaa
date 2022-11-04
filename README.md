@@ -1,7 +1,7 @@
 
 <span align="center">
 
-# Sistema de controle de produtos
+# Sistema de controle de pedidos
 
 </span>
 
