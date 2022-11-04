@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Controle de Pedidos</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https: //fonts.googleapis.com/css2? family= Inter:wght@400;700;800 & display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/23f29bf7ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--  MENU  -->
+    <nav>
+        <div id="logo">
+            <img id="logoi" src="img/logo.svg" alt="logo"> <p class="fill">Logo</p>
+        </div>
+        <hr>
+        <ul id="menu">
+            <li><a href="#"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="javascript://" class="bt" ><i class="fa-solid fa-address-card"></i>Cadastro</a>
+            <ul class="ul1">
+                <li><a  href="#"></a></li>
+                <li><a href="cad-de-cliente.html">Cadastro de Cliente</a></li>
+                <li><a href="cad-de-vendedores.html">Cadastro de Vendedor</a></li>
+                <li><a href="cad-de-cod-de-pagamento.html">Cad. de Cond. de Pagamento</a></li>
+                <li><a href="cad-de-produtos.html">Cadastro de Produtos</a></li>
+            </ul>
+            </li>
+            <li><a class="bt2" href="#"><i class="fa-solid fa-cart-shopping"></i>Movimentação</a>
+            <ul class="ul2">
+                <li><a href="#"></a></li>
+                <li><a href="cad-de-pedidos.html">Pedidos</a></li>
+                <li><a href="cad-de-pedidos-mestre.html">Pedidos | Produtos</a></li>
+            </ul>
+            </li>
+            <li><a class="bt3" href="#"><i class="fa-solid fa-triangle-exclamation"></i>Manutenção</a>
+            <ul class="ul3">
+                <li><a class="trasso" href="#"></a></li>
+                <li><a href="cad-de-usuario.html">Cadastro de Usuário</a></li>
+            </ul>
+            </li>
+        </ul>
+        
+        <!--  MENU  -->
+
+        <!--  Botão Ajuda  -->
+        <button><a id="ajuda1" href="#">Ajuda</a></button>
+
+        <hr>
+
+        <!--  SAIR  -->
+        <div id="sair">
+        <a href="#"><i class="fa-solid fa-arrow-right-from-bracket"></i>Sair</a>
+        </div>
+    </nav>
+
+
+    <div id="fundo" >
+        <img class="fundo1" src="img/fundo.svg" alt="pedidos-fundo">
+    </div>
+
+    <h1 class="fill">Sistema de Controle de Pedidos</h1>
+
+    <!-- BARRA DE PESQUISA  -->
+    <div class="search-box">
+        <input type="text" class="search-txt" placeholder="Buscar">
+        <a href="#" class="search-btn">
+            <img id="lupa" src="img/loupe_icon-icons.com_69633.svg" alt="lupa" >
+        </a>
+
+        <a href="cad-de-usuario.html">
+            <img id="usu" src="img/usuario.svg" alt="usuario">
+        </a>
+    </div>
+
+    <footer>
+        <p id="rodape">Projeto fictício | produzido por @biancabbl_</p>
+    </footer>
+    <div class="toggle" onclick="toggleMenu();"></div>
+    <script src="main.js"></script>
+</body>
+</html>
