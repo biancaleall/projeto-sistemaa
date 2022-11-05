@@ -8,7 +8,7 @@
 <p align="center">
  <strong> - Sistema criado com o objetivo de praticar HTML, CSS e JAVASCRIP. </strong> <br>
 <strong> Nada profissional ou muito avançado. </strong> <br> 
-<strong> Acesse aqui   </strong>
+<strong> Acesse aqui: https://sistemadecontroledepedidos.netlify.app/  </strong>
 </p>
 
 
