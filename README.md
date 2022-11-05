@@ -1,14 +1,15 @@
 
 <span align="center">
 
-# 💻 Sistema de controle de pedidos
+# | Sistema de controle de pedidos
 
 </span>
 
 <p align="center">
- ⭐ Sistema criado com o objetivo de praticar HTML, CSS e JAVASCRIP <br>
+ - Sistema criado com o objetivo de praticar HTML, CSS e JAVASCRIP <br>
  Nada profissional ou muito avançado.
 </p>
+
 
 <div align="center">
 <img src="https://user-images.githubusercontent.com/98168384/199861200-262da3b0-9f2a-423d-aef6-507f4de87201.png" width="300px" />
